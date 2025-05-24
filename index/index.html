@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">delicious food</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li>home</li>
+                    <li>about</li>
+                    <li>recipes</li>
+                    <li>content</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--....Hero section....-->
+    <!-- <section class="hero">
+        <div class="hero-section">
+            <h2>welcome to our Recipe Collection!</h2>
+            <p> wBigger bites,bolder flavours-Phat Chicken brands with the
+                ultimate fried chicken experience.</p>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="search recipe">
+                <button type="submit">search</button>
+            </form>
+        </div>
+
+    </section> -->
+
+    <section class="hero-slider">
+        <div class="slide active"
+            style="background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');">
+            <div class="slide-content">
+                <h2>Welcome to Our Recipe Collection!</h2>
+                <p>Discover amazing pizza recipes with authentic Italian flavors that will transport you to Naples.</p>
+                <form action="#" class="search-box">
+                    <input type="text" placeholder="Search pizza recipes...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="slide"
+            style="background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');">
+            <div class="slide-content">
+                <h2>Bigger Bites, Bolder Flavors!</h2>
+                <p>Experience the ultimate fried chicken with crispy coating and juicy meat in every bite.</p>
+                <form action="#" class="search-box">
+                    <input type="text" placeholder="Search chicken recipes...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="slide"
+            style="background-image: url('https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');">
+            <div class="slide-content">
+                <h2>Fresh & Healthy Options</h2>
+                <p>Explore our collection of nutritious and delicious recipes for a healthier lifestyle.</p>
+                <form action="#" class="search-box">
+                    <input type="text" placeholder="Search healthy recipes...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+
+
+        <!-- Navigation Arrows -->
+        <button class="slider-arrow prev" onclick="changeSlide(-1)">❮</button>
+        <button class="slider-arrow next" onclick="changeSlide(1)">❯</button>
+
+        <!-- Navigation Dots -->
+        <div class="slider-nav">
+            <span class="nav-dot active" onclick="currentSlide(1)"></span>
+            <span class="nav-dot" onclick="currentSlide(2)"></span>
+            <span class="nav-dot" onclick="currentSlide(3)"></span>
+            <span class="nav-dot" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+
+
+
+    <!--....Recipe section....-->
+    <section class="recipes">
+        <h2>featured recipes</h2>
+        <div class="recipe-section">
+            <div class="recipe-card">
+                <img src="../image/kfc.png" alt="">
+                <h2>kfc</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel,
+                    ipsum! A natus in expedita saepe, numquam molestias iste sit ratione omnis,
+                    vero ea adipisci quas commodi eius fugiat maxime. Reiciendis.</p>
+                <a href="#">View recipe</a>
+            </div>
+            <div class="recipe-card">
+                <img src="../image/sandwich.jpg" alt="">
+                <h2>chicken</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel,
+                    ipsum! A natus in expedita saepe, numquam molestias iste sit ratione omnis,
+                    vero ea adipisci quas commodi eius fugiat maxime. Reiciendis.</p>
+                <a href="#">View recipe</a>
+            </div>
+            <div class="recipe-card">
+                <img src="../image/tikka paratha.jpg" alt="">
+                <h2>chicken paratha</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel,
+                    ipsum! A natus in expedita saepe, numquam molestias iste sit ratione omnis,
+                    vero ea adipisci quas commodi eius fugiat maxime. Reiciendis.</p>
+                <a href="#">View recipe</a>
+            </div>
+            <div class="recipe-card">
+                <img src="../image/sandwich.jpg" alt="">
+                <h2>chicken sandwich</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel,
+                    ipsum! A natus in expedita saepe, numquam molestias iste sit ratione omnis,
+                    vero ea adipisci quas commodi eius fugiat maxime. Reiciendis.</p>
+                <a href="#">View recipe</a>
+            </div>
+            <div class="recipe-content">
+                <script src="slider.js"></script>
+</body>
+
+</html>
